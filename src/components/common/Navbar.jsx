@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-// Replace this with the relative path to where you save cerso_logo.png
+import logo from "../../assets/2.png";
 
 
 const NAV_LINKS = [
@@ -48,11 +48,11 @@ export default function Navbar() {
           
           {/* LOGO FROM SCREENSHOT */}
           <a href="#home" className="flex items-center h-fit py-1 border-none">
-            <img 
-              src="src/assets/2.png"
-              alt="Cerso" 
-              className="h-18 w-auto object-contain block border-none"
-            />
+            <img
+  src={logo}
+  alt="Cerso"
+  className="h-18 w-auto object-contain block"
+/>
           </a>
 
           {/* DESKTOP NAV */}
