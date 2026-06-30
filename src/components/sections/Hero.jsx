@@ -6,7 +6,7 @@ export default function Hero() {
       id="home"
       className="relative overflow-hidden pt-32 pb-24 md:pt-48 md:pb-32"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto px-6">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* Left Content */}
           <div>
