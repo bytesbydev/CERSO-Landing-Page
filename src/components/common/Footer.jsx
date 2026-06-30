@@ -1,3 +1,4 @@
+import logo from "../../assets/2.png";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-16 w-full rounded-t-2xl">
@@ -5,7 +6,7 @@ const Footer = () => {
         {/* Logo */}
         <div className="md:col-span-1">
           <div className="flex items-center gap-2 mb-6">
-           <img src="src/assets/2.png" alt="" srcset="" className="invert" />
+           <img src={logo} alt="Cerso" className="invert" />
           </div>
 
           <p className="text-sm text-white/60 max-w-xs">
