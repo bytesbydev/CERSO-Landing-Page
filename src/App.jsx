@@ -1,11 +1,12 @@
-import 'react'
+import MainLayout from "./layouts/MainLayout";
+import Home from "./pages/Home";
 
-const App = () => {
+function App() {
   return (
-    <div>
-     
-    </div>
-  )
+    <MainLayout>
+      <Home />
+    </MainLayout>
+  );
 }
 
-export default App
+export default App;
